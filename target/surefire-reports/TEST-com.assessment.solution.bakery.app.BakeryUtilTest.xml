@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.assessment.solution.bakery.app.BakeryUtilTest" time="0.241" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\sanjay\java-practice\app\target\test-classes;C:\sanjay\java-practice\app\target\classes;C:\Users\sanjay.sreedhar\.m2\repository\junit\junit\4.9\junit-4.9.jar;C:\Users\sanjay.sreedhar\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.5\bin"/>
+    <property name="sun.java.command" value="C:\Users\sanjay.sreedhar\AppData\Local\Temp\surefire13231253333466200481\surefirebooter14262535524452819474.jar C:\Users\sanjay.sreedhar\AppData\Local\Temp\surefire13231253333466200481 2019-11-27T13-22-14_044-jvmRun1 surefire33796310714418785tmp surefire_01978577973792628108tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\sanjay\java-practice\app\target\test-classes;C:\sanjay\java-practice\app\target\classes;C:\Users\sanjay.sreedhar\.m2\repository\junit\junit\4.9\junit-4.9.jar;C:\Users\sanjay.sreedhar\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sanjay.sreedhar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\sanjay\java-practice\app"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\sanjay.sreedhar\AppData\Local\Temp\surefire13231253333466200481\surefirebooter14262535524452819474.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.5+10-LTS"/>
+    <property name="user.name" value="sanjay.sreedhar"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\sanjay.sreedhar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SANJAY~1.SRE\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.5"/>
+    <property name="user.dir" value="C:\sanjay\java-practice\app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-11.0.5/bin/server;C:/Program Files/Java/jdk-11.0.5/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk-11.0.5\bin\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Notepad++;C:\groovy\groovy-2.5.8\bin;C:\Program Files\Perforce;C:\Program Files\nodejs\;C:\apache-maven-3.6.2\bin;C:\Users\sanjay.sreedhar\Desktop\misc\apache-tomcat-9.0.27\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\sanjay.sreedhar\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\bin;;C:\Users\sanjay.sreedhar\AppData\Roaming\npm;C:\Users\sanjay.sreedhar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sanjay.sreedhar\Desktop;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.5+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="inValidItemCodeTest" classname="com.assessment.solution.bakery.app.BakeryUtilTest" time="0.003"/>
+  <testcase name="readPropertiesFNFExceptionTest" classname="com.assessment.solution.bakery.app.BakeryUtilTest" time="0"/>
+  <testcase name="getNumberFormatTest" classname="com.assessment.solution.bakery.app.BakeryUtilTest" time="0.024"/>
+  <testcase name="isCFValidItemCodeTest" classname="com.assessment.solution.bakery.app.BakeryUtilTest" time="0"/>
+  <testcase name="isMB11ValidItemCodeTest" classname="com.assessment.solution.bakery.app.BakeryUtilTest" time="0.001"/>
+  <testcase name="getOrderBreakUpNullPointerTest" classname="com.assessment.solution.bakery.app.BakeryUtilTest" time="0.003"/>
+  <testcase name="isVS5ValidItemCodeTest" classname="com.assessment.solution.bakery.app.BakeryUtilTest" time="0.001"/>
+  <testcase name="createOrderTest" classname="com.assessment.solution.bakery.app.BakeryUtilTest" time="0.002"/>
+  <testcase name="getBreakUpTest" classname="com.assessment.solution.bakery.app.BakeryUtilTest" time="0.104"/>
+  <testcase name="calculateCostBreakUpForCFExceptionTest" classname="com.assessment.solution.bakery.app.BakeryUtilTest" time="0.001"/>
+  <testcase name="calculateCostBreakUpForVS5ExceptionTest" classname="com.assessment.solution.bakery.app.BakeryUtilTest" time="0"/>
+  <testcase name="calculateCostBreakUpForMB11ExceptionTest" classname="com.assessment.solution.bakery.app.BakeryUtilTest" time="0.001"/>
+  <testcase name="getBreakUpInvalidProductExceptionTest" classname="com.assessment.solution.bakery.app.BakeryUtilTest" time="0"/>
+</testsuite>
